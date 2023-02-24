@@ -24,10 +24,10 @@ If you're also studying for LeetCode, you can use this repository as a reference
 git clone https://github.com/oarriet/leetcode.git
 ```
 
-Once you have the repository on your local machine, you can run each solution using the Go compiler. To do this, navigate to the file directory and run the following command:
+Once you have the repository on your local machine, you can run each solution using the Go compiler. To do this, navigate to the file, uncomment `main` func and run the following command:
 
 ```
-go run filename.go
+go run .
 ```
 
 Replace `filename` with the name of the file you want to run.
