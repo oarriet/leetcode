@@ -30,8 +30,6 @@ Once you have the repository on your local machine, you can run each solution us
 go run .
 ```
 
-Replace `filename` with the name of the file you want to run.
-
 ## Contributing
 
 If you have a solution to a LeetCode problem in Go that you'd like to contribute, please feel free to submit a pull request. However, please make sure that your solution meets the following criteria:
