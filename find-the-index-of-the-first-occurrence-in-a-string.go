@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -31,7 +30,7 @@ func strStr(haystack string, needle string) int {
 	return strings.Index(haystack, needle)
 }
 
-func main() {
-	fmt.Printf("sadbutsad: %d\n", strStr("sadbutsad", "sad"))
-	fmt.Printf("leetcode: %d\n", strStr("leetcode", "leeto"))
-}
+// func main() {
+// 	fmt.Printf("sadbutsad: %d\n", strStr("sadbutsad", "sad"))
+// 	fmt.Printf("leetcode: %d\n", strStr("leetcode", "leeto"))
+// }
