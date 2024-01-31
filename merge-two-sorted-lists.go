@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 You are given the heads of two sorted linked lists list1 and list2.
 
@@ -16,10 +14,10 @@ The number of nodes in both lists is in the range [0, 50].
 Both list1 and list2 are sorted in non-decreasing order.
 */
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
 
 /**
  * Definition for singly-linked list.
@@ -90,11 +88,11 @@ func appendListNode(list *ListNode, item *ListNode) (head *ListNode) {
 //	printList(listMerged)
 //}
 
-func printList(list *ListNode) {
-	fmt.Println("Printing List")
-	for list != nil {
-		fmt.Println(list.Val)
-		list = list.Next
-	}
-	fmt.Printf("Done")
-}
+//func printList(list *ListNode) {
+//	fmt.Println("Printing List")
+//	for list != nil {
+//		fmt.Println(list.Val)
+//		list = list.Next
+//	}
+//	fmt.Printf("Done")
+//}
