@@ -19,22 +19,22 @@ Output: false
 //	Next *ListNode
 //}
 
-func isPalindrome(head *ListNode) bool {
-	var fullList []int
-
-	for head != nil {
-		fullList = append(fullList, head.Val)
-		head = head.Next
-	}
-
-	for i := 0; i < len(fullList)/2; i++ {
-		if fullList[i] != fullList[len(fullList)-1-i] {
-			return false
-		}
-	}
-
-	return true
-}
+//func isPalindrome(head *ListNode) bool {
+//	var fullList []int
+//
+//	for head != nil {
+//		fullList = append(fullList, head.Val)
+//		head = head.Next
+//	}
+//
+//	for i := 0; i < len(fullList)/2; i++ {
+//		if fullList[i] != fullList[len(fullList)-1-i] {
+//			return false
+//		}
+//	}
+//
+//	return true
+//}
 
 //func main() {
 //	node4 := ListNode{Val: 1, Next: nil}
